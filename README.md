@@ -1,10 +1,12 @@
 # pfman
 
-**Personal / Family Asset Operating System**
+**Personal / Family Asset Operating System** _(in development)_
 
-A proactive portfolio management system that keeps a clean, auditable record of all assets over time, understands their relationships, and uses analytics + LLM-based reasoning to provide insights and suggestions.
+An envisioned proactive portfolio management system that will keep a clean, auditable record of all assets over time, understand their relationships, and use analytics + LLM-based reasoning to provide insights and suggestions.
 
-## Core Capabilities
+> **Note**: This is an early-stage development project. The functionality described below represents the planned vision and is not yet implemented.
+
+## Envisioned Core Capabilities
 
 - **Portfolio Modeling**: Track listed securities, cash, alternatives (real estate, private equity, collectibles), across multiple accounts and portfolios
 - **Analytics & Risk**: Time-weighted returns, volatility, concentration metrics, stress tests, and scenario analysis
@@ -12,7 +14,7 @@ A proactive portfolio management system that keeps a clean, auditable record of 
 - **Proactive Agent**: Scheduled activities (daily price updates, weekly risk summaries, monthly rebalance checks) with LLM-generated insights
 - **News & Impact Tracking**: Monitor market events and their impact on your holdings
 
-## Architecture
+## Planned Architecture
 
 - **Frontend**: Web SPA (React/Vue/Svelte with TypeScript)
 - **Backend**: FastAPI (Python) or NestJS/Express (TypeScript)
@@ -20,15 +22,15 @@ A proactive portfolio management system that keeps a clean, auditable record of 
 - **Analytics**: Python-based analytics services (pandas/NumPy)
 - **LLM Integration**: Analysis-agent microservice for AI-powered insights
 
-## Local Development
+## Development Status
 
-The system uses Docker Compose for local deployment:
+This project is in the conceptual/planning stage. The planned local development setup will use Docker Compose:
 
 ```bash
 docker-compose up
 ```
 
-Services include:
+Envisioned services:
 - `pfman-api` - Backend API
 - `pfman-web` - Frontend interface
 - `neo4j` - Graph database
@@ -44,4 +46,4 @@ Services include:
 
 ## Philosophy
 
-This is not a passive tracking tool but an active "personal CIO with a graph brain" that regularly analyzes your portfolio, flags risks, and proposes ideas based on your investment policy and market conditions.
+The vision is to create not just a passive tracking tool but an active "personal CIO with a graph brain" that regularly analyzes your portfolio, flags risks, and proposes ideas based on your investment policy and market conditions.
